@@ -1,0 +1,19 @@
+*{margin: 0; padding: 0;}
+*{box-sizing: border-box;}
+body{
+	background: #e9e9e9;
+}
+.window{
+	width: 400px;
+	height: 300px;
+	margin: 20px auto;
+	overflow: hidden;
+}
+.images{
+	display: flex; /*使图片横向排列*/
+	transition: all 1s;
+}
+.images > img{
+	width: 100%; /*img宽度为父元素宽度的100%*/
+}
+

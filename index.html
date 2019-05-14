@@ -6,21 +6,27 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<div class="window">
-		<div id="slides" class="images">
-			<img src="./images/1.png" alt="图片" width="400" height="300">
-			<img src="./images/2.png" alt="图片" width="400" height="300">
-			<img src="./images/3.png" alt="图片" width="400" height="300">
-			<img src="./images/4.png" alt="图片" width="400" height="300">
+	<div class="container">
+		<div class="window">
+			<div id="slides" class="images">
+				<img src="./images/1.png" alt="图片" width="400" height="300">
+				<img src="./images/2.png" alt="图片" width="400" height="300">
+				<img src="./images/3.png" alt="图片" width="400" height="300">
+				<img src="./images/4.png" alt="图片" width="400" height="300">
+			</div>
+		</div>
+		<div class="control" style="text-align:center;">
+			<button id="previous">上一张</button>
+			<button id="next">下一张</button>
+		</div>
+		<div id="buttonWrapper" style="text-align:center;">
+			<button>1</button>
+			<button>2</button>
+			<button>3</button>
+			<button>4</button>
 		</div>
 	</div>
-	<div id="buttonWrapper" style="text-align:center;">
-		<button>1</button>
-		<button>2</button>
-		<button>3</button>
-		<button>4</button>
-	</div>
-
+	
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="./main.js"></script>
 </body>
